@@ -4,6 +4,13 @@ const Candidate = (props) => {
     <div>
     <h1>Candidate</h1>
 <p>Hello {props.user}</p>
+<p>Username: {props.username}</p>
+<p>Email: {props.email}</p>
+<p>Company: {props.Company}</p>
+
+
+
+
 </div>
 );
 

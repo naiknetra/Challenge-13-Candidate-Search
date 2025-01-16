@@ -7,7 +7,7 @@ const CandidateSearch = () => {
   useEffect(() => {
     const fetchdata = async () => {
       const data = await searchGithub();
-      console.log("test1")
+      console.log("test1");
       console.log(data);
 
     }
